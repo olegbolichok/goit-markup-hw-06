@@ -701,6 +701,10 @@ button {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     background-color: var(--primary-background-color);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
 }
 .button-close:hover,
 .button-close:focus {
@@ -741,6 +745,10 @@ button {
     line-height: 1.14;
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
 }
 .modal-item:hover,
 .modal-item:focus {
@@ -764,6 +772,9 @@ button {
 }
 .modal-point {
     position: relative;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
 }
 .comment {
     padding: 10px 16px;
@@ -804,6 +815,10 @@ button {
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--primary-background-color);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
 }
 .modal-submit:hover,
 .modal-submit:focus {
