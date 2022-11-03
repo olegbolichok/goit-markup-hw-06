@@ -611,56 +611,74 @@
                     Оставьте свои данные, мы вам перезвоним
                 </p>
                 <form class="modal-body">
-                    <label for="name" class="modal-title">Имя</label>
-                    <div class="modal-point">
-                        <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            class="modal-item"
-                            autofocus
-                        />
-                        <svg width="12px" height="12px" class="modal-icon">
-                            <use href="./images/symbol-defs.svg#name"></use>
-                        </svg>
-                    </div>
-                    <label for="tel" class="modal-title">Телефон</label>
-                    <div class="modal-point">
-                        <input
-                            type="tel"
-                            name="tel"
-                            id="tel"
-                            class="modal-item"
-                        /><svg width="13px" height="13px" class="modal-icon">
-                            <use
-                                href="./images/symbol-defs.svg#phonenumber"
-                            ></use>
-                        </svg>
-                    </div>
-                    <label for="email" class="modal-title">Почта</label>
-                    <div class="modal-point">
-                        <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            class="modal-item"
-                        /><svg width="15px" height="12px" class="modal-icon">
-                            <use href="./images/symbol-defs.svg#email"></use>
-                        </svg>
-                    </div>
-                    <label for="comment" class="modal-title">Комментарий</label>
-                    <textarea
-                        name="comment"
-                        id="comment"
-                        cols="30"
-                        rows="10"
-                        placeholder="Введите текст"
-                        class="modal-item comment"
-                    ></textarea>
+                    <label class="modal-title"
+                        >Имя
+                        <div class="modal-point">
+                            <input
+                                type="text"
+                                name="name"
+                                class="modal-item"
+                                autofocus
+                            />
+                            <svg width="12px" height="12px" class="modal-icon">
+                                <use href="./images/symbol-defs.svg#name"></use>
+                            </svg></div
+                    ></label>
+
+                    <label class="modal-title"
+                        >Телефон
+                        <div class="modal-point">
+                            <input
+                                type="tel"
+                                name="tel"
+                                class="modal-item"
+                            /><svg
+                                width="13px"
+                                height="13px"
+                                class="modal-icon"
+                            >
+                                <use
+                                    href="./images/symbol-defs.svg#phonenumber"
+                                ></use>
+                            </svg></div
+                    ></label>
+
+                    <label class="modal-title"
+                        >Почта
+                        <div class="modal-point">
+                            <input
+                                type="email"
+                                name="email"
+                                class="modal-item"
+                            /><svg
+                                width="15px"
+                                height="12px"
+                                class="modal-icon"
+                            >
+                                <use
+                                    href="./images/symbol-defs.svg#email"
+                                ></use>
+                            </svg></div
+                    ></label>
+
+                    <label class="modal-title"
+                        >Комментарий<textarea
+                            name="comment"
+                            cols="30"
+                            rows="10"
+                            placeholder="Введите текст"
+                            class="modal-item comment"
+                        ></textarea>
+                    </label>
+
                     <div class="policy">
-                        <input type="checkbox" name="policy" id="policy" />
-                        <label for="policy" class="policy-text"
-                            >Соглашаюсь с рассылкой и принимаю
+                        <label class="policy-text"
+                            ><input
+                                type="checkbox"
+                                name="policy"
+                                class="checkbox"
+                            /><span class="icon"></span> Соглашаюсь с рассылкой
+                            и принимаю
                             <a href="" class="policy-link"
                                 >Условия договора</a
                             ></label
