@@ -723,7 +723,7 @@ body {
     border-radius: 2px;
     margin-right: 8.3px;
 }
-.modal__checkbox:checked ~ .icon {
+.modal__checkbox:checked + .modal__checkbox-icon {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     background-image: url(../images/check.svg);
